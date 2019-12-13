@@ -109,7 +109,7 @@ final class ModelRegistry
         }
     }
 
-    private function generateModelName(Model $model): string
+    protected function generateModelName(Model $model): string
     {
         $definitions = $this->api->getDefinitions();
 
